@@ -1,0 +1,50 @@
+.travel-container {
+  width: 100%;
+  min-width: 23rem;
+  // background-color: red;
+  //   min-width: 20rem;
+  // margin: 0 auto;
+  .top-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .search {
+      width: 100%;
+    }
+  }
+  .cards-section {
+    margin-bottom: 5rem;
+  }
+}
+
+// @media screen and (min-width: 641px) and (max-width: 1200px) {
+//   .travel-container{
+//     background-color: green;
+//   }   
+    
+// }
+
+
+@media screen and (max-width: 640px) {
+  .travel-container {
+    width: 100%;
+    // background-color: yellow;
+    // margin: 0 auto;
+    .top-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      // .search{}
+      .travel-icons {
+        margin-top: -1.5rem;
+      }
+    }
+    .cards-section {
+      width: 100%;
+    }
+  }
+}

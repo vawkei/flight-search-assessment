@@ -1,0 +1,63 @@
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  position: relative;
+  .icon {
+    position: absolute;
+    left: 27rem;
+  }
+  input {
+    padding-left: 30px; /* create space for the icon */
+    height: 36px;
+    width: 30%;
+    border-radius: 18px;
+  }
+  // @media screen and (max-width: 440px) {
+  //   .search input {
+  //     padding: 0.5rem;
+  //     border-radius: 6px;
+  //   }
+  // }
+}
+
+//📒 This is for tablets like ipad pro and mini. I had to set the RxMagnifyingGlass properly because it was ugly in desktop mode, so i targetted the screen size for tablets📒
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+  .search {
+    width: 70%;
+    margin: 0rem auto;
+   
+    position: relative;
+    .icon {
+      position: absolute;
+      left: 0.2rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+    }
+  }   
+    
+}
+
+//👇👇 media query targetting mobile phones👇👇
+@media screen and (max-width: 640px) {
+  .search {
+    width: 70%;
+    margin: 0rem auto;
+   
+    position: relative;
+    .icon {
+      position: absolute;
+      left: 0.2rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+    }
+  }
+}

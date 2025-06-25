@@ -1,0 +1,30 @@
+[
+  {
+    "skyId": "PARI",
+    "entityId": "27539733",
+    "presentation": {
+      "suggestionTitle": "Paris (Any)"
+    }
+  },
+  {
+    "skyId": "CDG",
+    "entityId": "95565041",
+    "presentation": {
+      "suggestionTitle": "Paris Charles de Gaulle (CDG)"
+    }
+  },
+  {
+    "skyId": "ORY",
+    "entityId": "95565040",
+    "presentation": {
+      "suggestionTitle": "Paris Orly (ORY)"
+    }
+  },
+  {
+    "skyId": "BVA",
+    "entityId": "95566278",
+    "presentation": {
+      "suggestionTitle": "Beauvais Tille Airport (BVA)"
+    }
+  }
+]
