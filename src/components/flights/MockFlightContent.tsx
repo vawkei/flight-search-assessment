@@ -65,6 +65,7 @@ const MockFlightContent = () => {
 
   const searchHandler = async () => {
     if (!flightSelectedFrom || !flightSelectedTo || !flightDate) {
+      setError("please select both locations and date");
       toast.error("please select both locations and date");
       return;
     }
